@@ -8,7 +8,9 @@ function App() {
 
     return (
         <div>
-        <h1>My value is</h1>
+        <h1>Webpages with React</h1>
+        <h2>Exercise 1 - Numbers and Buttons</h2>
+        <h3>My value is</h3>
         <p>{value}</p>
         <button onClick={() => {
             setValue(value +1)
